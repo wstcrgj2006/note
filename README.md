@@ -1,6 +1,8 @@
 这里记录了一些我的笔记和思考，如果能对你有些用，那就更好了😀
 
-[这里](https://book.douban.com/mine)是我的读书列表。
+📚[这里](https://book.douban.com/mine)是我的读书列表。
+
+🛠[这里](./note/工具.md)是我创建的一些小工具。
 
 - [Text classification在Android中的应用](./note/Text%20classification在Android中的应用.md)
 - [Kotlin协程基础](./note/Kotlin协程基础.md)
