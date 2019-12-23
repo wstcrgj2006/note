@@ -4,6 +4,7 @@
 
 🛠[这里](./note/工具.md)是我创建的一些小工具。
 
+- [Base64](./note/Base64.md)
 - [安卓源码调试指南](./note/安卓源码调试指南.md)
 - [macOS自动化工具automator简介](./note/macOS自动化工具automator简介.md)
 - [🎖入职五周年纪念](./note/入职五周年纪念.md)
