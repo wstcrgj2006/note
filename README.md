@@ -4,6 +4,7 @@
 
 🛠[这里](./note/工具.md)是我创建的一些小工具。
 
+- [《软件调试修炼之道》读书笔记](./note/软件调试修炼之道.html)
 - [Android源码之Activity启动后何时能获得View的宽高](./note/Android源码之Activity启动后何时能获得View的宽高.md)
 - [Base64](./note/Base64.md)
 - [安卓源码调试指南](./note/安卓源码调试指南.md)

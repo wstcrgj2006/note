@@ -1,0 +1,1843 @@
+<html xmlns:v="urn:schemas-microsoft-com:vml"
+xmlns:o="urn:schemas-microsoft-com:office:office"
+xmlns:w="urn:schemas-microsoft-com:office:word"
+xmlns:m="http://schemas.microsoft.com/office/2004/12/omml"
+xmlns="http://www.w3.org/TR/REC-html40">
+
+<head>
+<meta http-equiv=Content-Type content="text/html; charset=utf-8">
+<meta name=ProgId content=Word.Document>
+<meta name=Generator content="Microsoft Word 15">
+<meta name=Originator content="Microsoft Word 15">
+<link rel=File-List href="./file/软件调试修炼之道.fld/filelist.xml">
+<link rel=Edit-Time-Data href="./file/软件调试修炼之道.fld/editdata.mso">
+<!--[if !mso]>
+<style>
+v\:* {behavior:url(#default#VML);}
+o\:* {behavior:url(#default#VML);}
+w\:* {behavior:url(#default#VML);}
+.shape {behavior:url(#default#VML);}
+</style>
+<![endif]--><!--[if gte mso 9]><xml>
+ <o:DocumentProperties>
+  <o:Author>Li Ponda</o:Author>
+  <o:LastAuthor>Li Ponda</o:LastAuthor>
+  <o:Revision>2</o:Revision>
+  <o:TotalTime>4</o:TotalTime>
+  <o:LastPrinted>2019-12-24T13:33:00Z</o:LastPrinted>
+  <o:Created>2019-12-25T02:38:00Z</o:Created>
+  <o:LastSaved>2019-12-25T02:38:00Z</o:LastSaved>
+  <o:Pages>5</o:Pages>
+  <o:Words>419</o:Words>
+  <o:Characters>2392</o:Characters>
+  <o:Lines>19</o:Lines>
+  <o:Paragraphs>5</o:Paragraphs>
+  <o:CharactersWithSpaces>2806</o:CharactersWithSpaces>
+  <o:Version>16.00</o:Version>
+ </o:DocumentProperties>
+ <o:OfficeDocumentSettings>
+  <o:RelyOnVML/>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+<link rel=themeData href="./file/软件调试修炼之道.fld/themedata.thmx">
+<link rel=colorSchemeMapping href="./file/软件调试修炼之道.fld/colorschememapping.xml">
+<!--[if gte mso 9]><xml>
+ <w:WordDocument>
+  <w:SpellingState>Clean</w:SpellingState>
+  <w:GrammarState>Clean</w:GrammarState>
+  <w:TrackMoves>false</w:TrackMoves>
+  <w:TrackFormatting/>
+  <w:PunctuationKerning/>
+  <w:DrawingGridVerticalSpacing>7.8 磅</w:DrawingGridVerticalSpacing>
+  <w:DisplayHorizontalDrawingGridEvery>0</w:DisplayHorizontalDrawingGridEvery>
+  <w:DisplayVerticalDrawingGridEvery>2</w:DisplayVerticalDrawingGridEvery>
+  <w:ValidateAgainstSchemas/>
+  <w:SaveIfXMLInvalid>false</w:SaveIfXMLInvalid>
+  <w:IgnoreMixedContent>false</w:IgnoreMixedContent>
+  <w:AlwaysShowPlaceholderText>false</w:AlwaysShowPlaceholderText>
+  <w:DoNotPromoteQF/>
+  <w:LidThemeOther>EN-US</w:LidThemeOther>
+  <w:LidThemeAsian>ZH-CN</w:LidThemeAsian>
+  <w:LidThemeComplexScript>X-NONE</w:LidThemeComplexScript>
+  <w:Compatibility>
+   <w:SpaceForUL/>
+   <w:BalanceSingleByteDoubleByteWidth/>
+   <w:DoNotLeaveBackslashAlone/>
+   <w:ULTrailSpace/>
+   <w:DoNotExpandShiftReturn/>
+   <w:AdjustLineHeightInTable/>
+   <w:BreakWrappedTables/>
+   <w:SnapToGridInCell/>
+   <w:WrapTextWithPunct/>
+   <w:UseAsianBreakRules/>
+   <w:DontGrowAutofit/>
+   <w:SplitPgBreakAndParaMark/>
+   <w:EnableOpenTypeKerning/>
+   <w:DontFlipMirrorIndents/>
+   <w:OverrideTableStyleHps/>
+   <w:UseFELayout/>
+  </w:Compatibility>
+  <m:mathPr>
+   <m:mathFont m:val="Cambria Math"/>
+   <m:brkBin m:val="before"/>
+   <m:brkBinSub m:val="&#45;-"/>
+   <m:smallFrac m:val="off"/>
+   <m:dispDef/>
+   <m:lMargin m:val="0"/>
+   <m:rMargin m:val="0"/>
+   <m:defJc m:val="centerGroup"/>
+   <m:wrapIndent m:val="1440"/>
+   <m:intLim m:val="subSup"/>
+   <m:naryLim m:val="undOvr"/>
+  </m:mathPr></w:WordDocument>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <w:LatentStyles DefLockedState="false" DefUnhideWhenUsed="false"
+  DefSemiHidden="false" DefQFormat="false" DefPriority="99"
+  LatentStyleCount="375">
+  <w:LsdException Locked="false" Priority="0" QFormat="true" Name="Normal"/>
+  <w:LsdException Locked="false" Priority="9" QFormat="true" Name="heading 1"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 2"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 3"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 4"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 5"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 6"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 7"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 8"/>
+  <w:LsdException Locked="false" Priority="9" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="heading 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index 9"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 1"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 2"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 3"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 4"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 5"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 6"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 7"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 8"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" Name="toc 9"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="header"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footer"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="index heading"/>
+  <w:LsdException Locked="false" Priority="35" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="caption"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of figures"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="envelope return"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="footnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="line number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="page number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote reference"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="endnote text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="table of authorities"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="macro"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="toa heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Bullet 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Number 5"/>
+  <w:LsdException Locked="false" Priority="10" QFormat="true" Name="Title"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Closing"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Signature"/>
+  <w:LsdException Locked="false" Priority="1" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Default Paragraph Font"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="List Continue 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Message Header"/>
+  <w:LsdException Locked="false" Priority="11" QFormat="true" Name="Subtitle"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Salutation"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Date"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text First Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Note Heading"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Body Text Indent 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Block Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="FollowedHyperlink"/>
+  <w:LsdException Locked="false" Priority="22" QFormat="true" Name="Strong"/>
+  <w:LsdException Locked="false" Priority="20" QFormat="true" Name="Emphasis"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Document Map"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Plain Text"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="E-mail Signature"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Top of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Bottom of Form"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal (Web)"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Acronym"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Address"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Cite"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Code"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Definition"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Keyboard"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Preformatted"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Sample"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Typewriter"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="HTML Variable"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Normal Table"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="annotation subject"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="No List"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Outline List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Simple 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Classic 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Colorful 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Columns 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Grid 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 4"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 5"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 7"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table List 8"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table 3D effects 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Contemporary"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Elegant"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Professional"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Subtle 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 2"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Web 3"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Balloon Text"/>
+  <w:LsdException Locked="false" Priority="39" Name="Table Grid"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Table Theme"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Placeholder Text"/>
+  <w:LsdException Locked="false" Priority="1" QFormat="true" Name="No Spacing"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 1"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 1"/>
+  <w:LsdException Locked="false" SemiHidden="true" Name="Revision"/>
+  <w:LsdException Locked="false" Priority="34" QFormat="true"
+   Name="List Paragraph"/>
+  <w:LsdException Locked="false" Priority="29" QFormat="true" Name="Quote"/>
+  <w:LsdException Locked="false" Priority="30" QFormat="true"
+   Name="Intense Quote"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 1"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 1"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 1"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 1"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 1"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 2"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 2"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 2"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 2"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 2"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 2"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 3"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 3"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 3"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 3"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 3"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 3"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 4"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 4"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 4"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 4"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 4"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 4"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 5"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 5"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 5"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 5"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 5"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 5"/>
+  <w:LsdException Locked="false" Priority="60" Name="Light Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="61" Name="Light List Accent 6"/>
+  <w:LsdException Locked="false" Priority="62" Name="Light Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="63" Name="Medium Shading 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="64" Name="Medium Shading 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="65" Name="Medium List 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="66" Name="Medium List 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="67" Name="Medium Grid 1 Accent 6"/>
+  <w:LsdException Locked="false" Priority="68" Name="Medium Grid 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="69" Name="Medium Grid 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="70" Name="Dark List Accent 6"/>
+  <w:LsdException Locked="false" Priority="71" Name="Colorful Shading Accent 6"/>
+  <w:LsdException Locked="false" Priority="72" Name="Colorful List Accent 6"/>
+  <w:LsdException Locked="false" Priority="73" Name="Colorful Grid Accent 6"/>
+  <w:LsdException Locked="false" Priority="19" QFormat="true"
+   Name="Subtle Emphasis"/>
+  <w:LsdException Locked="false" Priority="21" QFormat="true"
+   Name="Intense Emphasis"/>
+  <w:LsdException Locked="false" Priority="31" QFormat="true"
+   Name="Subtle Reference"/>
+  <w:LsdException Locked="false" Priority="32" QFormat="true"
+   Name="Intense Reference"/>
+  <w:LsdException Locked="false" Priority="33" QFormat="true" Name="Book Title"/>
+  <w:LsdException Locked="false" Priority="37" SemiHidden="true"
+   UnhideWhenUsed="true" Name="Bibliography"/>
+  <w:LsdException Locked="false" Priority="39" SemiHidden="true"
+   UnhideWhenUsed="true" QFormat="true" Name="TOC Heading"/>
+  <w:LsdException Locked="false" Priority="41" Name="Plain Table 1"/>
+  <w:LsdException Locked="false" Priority="42" Name="Plain Table 2"/>
+  <w:LsdException Locked="false" Priority="43" Name="Plain Table 3"/>
+  <w:LsdException Locked="false" Priority="44" Name="Plain Table 4"/>
+  <w:LsdException Locked="false" Priority="45" Name="Plain Table 5"/>
+  <w:LsdException Locked="false" Priority="40" Name="Grid Table Light"/>
+  <w:LsdException Locked="false" Priority="46" Name="Grid Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="Grid Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="Grid Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="Grid Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="Grid Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="Grid Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="Grid Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="Grid Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="Grid Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="Grid Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="46" Name="List Table 1 Light"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark"/>
+  <w:LsdException Locked="false" Priority="51" Name="List Table 6 Colorful"/>
+  <w:LsdException Locked="false" Priority="52" Name="List Table 7 Colorful"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 1"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 1"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 1"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 1"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 1"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 1"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 2"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 2"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 2"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 2"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 2"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 2"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 3"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 3"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 3"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 3"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 3"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 3"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 4"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 4"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 4"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 4"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 4"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 4"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 5"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 5"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 5"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 5"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 5"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 5"/>
+  <w:LsdException Locked="false" Priority="46"
+   Name="List Table 1 Light Accent 6"/>
+  <w:LsdException Locked="false" Priority="47" Name="List Table 2 Accent 6"/>
+  <w:LsdException Locked="false" Priority="48" Name="List Table 3 Accent 6"/>
+  <w:LsdException Locked="false" Priority="49" Name="List Table 4 Accent 6"/>
+  <w:LsdException Locked="false" Priority="50" Name="List Table 5 Dark Accent 6"/>
+  <w:LsdException Locked="false" Priority="51"
+   Name="List Table 6 Colorful Accent 6"/>
+  <w:LsdException Locked="false" Priority="52"
+   Name="List Table 7 Colorful Accent 6"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Mention"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Smart Hyperlink"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Hashtag"/>
+  <w:LsdException Locked="false" SemiHidden="true" UnhideWhenUsed="true"
+   Name="Unresolved Mention"/>
+ </w:LatentStyles>
+</xml><![endif]-->
+<style>
+<!--
+ /* Font Definitions */
+ @font-face
+	{font-family:Wingdings;
+	panose-1:5 0 0 0 0 0 0 0 0 0;
+	mso-font-charset:2;
+	mso-generic-font-family:decorative;
+	mso-font-pitch:variable;
+	mso-font-signature:0 268435456 0 0 -2147483648 0;}
+@font-face
+	{font-family:宋体;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:SimSun;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"Cambria Math";
+	panose-1:2 4 5 3 5 4 6 3 2 4;
+	mso-font-charset:0;
+	mso-generic-font-family:roman;
+	mso-font-pitch:variable;
+	mso-font-signature:3 0 0 0 1 0;}
+@font-face
+	{font-family:DengXian;
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:等线;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+@font-face
+	{font-family:"Helvetica Neue";
+	panose-1:2 0 5 3 0 0 0 2 0 4;
+	mso-font-charset:0;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-452984065 1342208475 16 0 1 0;}
+@font-face
+	{font-family:"\@宋体";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:3 680460288 22 0 262145 0;}
+@font-face
+	{font-family:"\@等线";
+	panose-1:2 1 6 0 3 1 1 1 1 1;
+	mso-font-alt:"\@DengXian";
+	mso-font-charset:134;
+	mso-generic-font-family:auto;
+	mso-font-pitch:variable;
+	mso-font-signature:-1610612033 953122042 22 0 262159 0;}
+ /* Style Definitions */
+ p.MsoNormal, li.MsoNormal, div.MsoNormal
+	{mso-style-unhide:no;
+	mso-style-qformat:yes;
+	mso-style-parent:"";
+	margin:0cm;
+	margin-bottom:.0001pt;
+	text-align:justify;
+	text-justify:inter-ideograph;
+	mso-pagination:none;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:DengXian;
+	mso-ascii-font-family:DengXian;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:DengXian;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:DengXian;
+	mso-hansi-theme-font:minor-latin;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;
+	mso-font-kerning:1.0pt;}
+p
+	{mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-margin-top-alt:auto;
+	margin-right:0cm;
+	mso-margin-bottom-alt:auto;
+	margin-left:0cm;
+	mso-pagination:widow-orphan;
+	font-size:12.0pt;
+	font-family:宋体;
+	mso-bidi-font-family:宋体;}
+.MsoChpDefault
+	{mso-style-type:export-only;
+	mso-default-props:yes;
+	font-family:DengXian;
+	mso-bidi-font-family:"Times New Roman";
+	mso-bidi-theme-font:minor-bidi;}
+ /* Page Definitions */
+ @page
+	{mso-page-border-surround-header:no;
+	mso-page-border-surround-footer:no;}
+@page WordSection1
+	{size:595.0pt 842.0pt;
+	margin:72.0pt 90.0pt 72.0pt 90.0pt;
+	mso-header-margin:42.55pt;
+	mso-footer-margin:49.6pt;
+	mso-paper-source:0;
+	layout-grid:15.6pt;}
+div.WordSection1
+	{page:WordSection1;}
+ /* List Definitions */
+ @list l0
+	{mso-list-id:700132102;
+	mso-list-template-ids:1805141550;}
+@list l0:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l0:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1
+	{mso-list-id:1328552339;
+	mso-list-template-ids:-1043192422;}
+@list l1:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l1:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2
+	{mso-list-id:1637566848;
+	mso-list-template-ids:-607728792;}
+@list l2:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l2:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3
+	{mso-list-id:1791166640;
+	mso-list-template-ids:-420945690;}
+@list l3:level1
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:36.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level2
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:72.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level3
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:108.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level4
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:144.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level5
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:180.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level6
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:216.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level7
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:252.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level8
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:288.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+@list l3:level9
+	{mso-level-number-format:bullet;
+	mso-level-text:;
+	mso-level-tab-stop:324.0pt;
+	mso-level-number-position:left;
+	text-indent:-18.0pt;
+	mso-ansi-font-size:10.0pt;
+	font-family:Wingdings;}
+ol
+	{margin-bottom:0cm;}
+ul
+	{margin-bottom:0cm;}
+-->
+</style>
+<!--[if gte mso 10]>
+<style>
+ /* Style Definitions */
+ table.MsoNormalTable
+	{mso-style-name:普通表格;
+	mso-tstyle-rowband-size:0;
+	mso-tstyle-colband-size:0;
+	mso-style-noshow:yes;
+	mso-style-priority:99;
+	mso-style-parent:"";
+	mso-padding-alt:0cm 5.4pt 0cm 5.4pt;
+	mso-para-margin:0cm;
+	mso-para-margin-bottom:.0001pt;
+	mso-pagination:widow-orphan;
+	font-size:10.5pt;
+	mso-bidi-font-size:12.0pt;
+	font-family:DengXian;
+	mso-ascii-font-family:DengXian;
+	mso-ascii-theme-font:minor-latin;
+	mso-fareast-font-family:DengXian;
+	mso-fareast-theme-font:minor-fareast;
+	mso-hansi-font-family:DengXian;
+	mso-hansi-theme-font:minor-latin;
+	mso-font-kerning:1.0pt;}
+</style>
+<![endif]-->
+</head>
+
+<body lang=ZH-CN style='tab-interval:21.0pt;text-justify-trim:punctuation'>
+
+<div class=WordSection1 style='layout-grid:15.6pt'>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>软件调试修炼之道</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>如果不首先弄清楚缺陷的真正根源，我们就没有遵循软件工程的原则，而是一头扎进巫毒编程（</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>voodoo programming</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>）或者巧合编程（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>programming by coincidence</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>）里了。</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:#888888;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>好的团队</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>在一个好的团队中工作是一件特别的幸事。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:#555555;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>调试不仅是排除缺陷</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>有效的调试需要采取以下步骤：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>1</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）弄清楚软件为什么会运行失常。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>2</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）修复这一问题。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>3</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）避免破坏其他部分。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>4</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）保持或者提高代码的总体质量（可读性、架构、测试覆盖率、性能等）。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>5</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）确保同样的问题不会在其他地方发生，也不会再次发生。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>实证方法</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>构建实验，观察结果。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>实证依赖的是观察和经验，而不是理论和纯逻辑推理。就调试而言，这意味着直接观察软件的行为。是的，你可以阅读全部的源代码，并用纯理论去了解软件的运行状况（有时你可能没有其他选择），但是这样做通常没什么效率，而且非常危险。通过仔细地构建实验环境并观察软件的运行状况，你可以更有效地找到问题。这样做不仅仅更快捷，而且通过观察可以使你重新审视自己关于软件运行还有哪些错误的假设。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>核心调试过程</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>调试过程的核心包括以下四步：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>问题重现</span></b><span style='font-size:12.0pt;font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>　找一个可靠并简洁的方式来按需求重现问题。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>问题诊断</span></b><span style='font-size:12.0pt;font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>　提出假设，并通过实验来测试它们，直到找出引起缺陷的潜在原因。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>缺陷修复</span></b><span style='font-size:12.0pt;font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>　设计和进行一些修改来修复问题，不要引入回归问题，保持和提高软件的整体质量。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>反思</span></b><span style='font-size:12.0pt;font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>　吸取教训。哪里出了问题？是否还有其他类似的问题需要修复？怎样做才能确保同样的问题不再发生？<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:#888888;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>调试是一个反复的过程</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>Debugging is an
+iterative process.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;mso-no-proof:yes'><v:shapetype id="_x0000_t75"
+ coordsize="21600,21600" o:spt="75" o:preferrelative="t" path="m@4@5l@4@11@9@11@9@5xe"
+ filled="f" stroked="f">
+ <v:stroke joinstyle="miter"/>
+ <v:formulas>
+  <v:f eqn="if lineDrawn pixelLineWidth 0"/>
+  <v:f eqn="sum @0 1 0"/>
+  <v:f eqn="sum 0 0 @1"/>
+  <v:f eqn="prod @2 1 2"/>
+  <v:f eqn="prod @3 21600 pixelWidth"/>
+  <v:f eqn="prod @3 21600 pixelHeight"/>
+  <v:f eqn="sum @0 0 1"/>
+  <v:f eqn="prod @6 1 2"/>
+  <v:f eqn="prod @7 21600 pixelWidth"/>
+  <v:f eqn="sum @8 21600 0"/>
+  <v:f eqn="prod @7 21600 pixelHeight"/>
+  <v:f eqn="sum @10 21600 0"/>
+ </v:formulas>
+ <v:path o:extrusionok="f" gradientshapeok="t" o:connecttype="rect"/>
+ <o:lock v:ext="edit" aspectratio="t"/>
+</v:shapetype><v:shape id="图片_x0020_2" o:spid="_x0000_i1025" type="#_x0000_t75"
+ alt="/var/folders/1z/kfw4hlf56l9ffq927b8n455m0000gn/T/com.microsoft.Word/Content.MSO/77544A0A.tmp"
+ style='width:415pt;height:282pt;visibility:visible;mso-wrap-style:square'>
+ <v:imagedata src="./file/软件调试修炼之道.fld/image001.png" o:title="77544A0A"/>
+</v:shape></span><span lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";
+mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
+0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>你知道要找的是什么吗</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>请记住，缺陷报告本身的错误不会比其他文档更少。仅仅是因为缺陷报告说应该这样运行而不应该那样运行，就能真正地符合软件的规格说明书吗？如果它没有明确地说明应该怎样运行，那么在你彻底弄清楚之前不要做任何改变</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>——</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>否则有可能会把正确的改为不正确的，仅仅听信缺陷报告是不会有帮助的。</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>记录输入值</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>日志是一种很有用的工具，但它可能被过度使用。如果你认为它确实有价值，可以考虑一直使用日志功能，但必须经过相关的训练。请确保你的日志是随时更新的，与代码保持一致，并且不会为了日志而做日志。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>最小化反馈周期</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>要将问题重现最小化。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>Aim for a minimal
+reproduction.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>将不确定的缺陷变为确定的</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>软件之美的一部分体现在它的确定性上</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>——</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>计算机精确地做着你让它做的事，而且如果起点相同，那么它每次都会精确地做同样的事情。然而，每个开发人员不论开发了多长时间的软件，都会遇到不确定性的软件</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>——</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>你每次做法一样，它却表现不一，忽左忽右。</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:#888888;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>不确定性只能有几个原因：</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>开始于不可预知的初始状态；</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>与外部系统进行交互；</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>故意地使用随机性；</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l0 level1 lfo3;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>多线程。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>不要急于动手</span></b><b><span lang=EN-US style='font-size:
+12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:#48B4C1;mso-font-kerning:0pt'>——</span></b><b><span style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'>试试科学的方法</span></b><span lang=EN-US style='font-size:12.0pt;font-family:
+"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>实验是一种达到目的的手段，而不是目的本身。如果不能用实验证明一些东西，那么你的实验就是毫无意义的。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:#888888;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>凡是你不明白的都是潜在的缺陷</span></b><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>Anything that you
+don't understand is potentially a bug.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>插桩</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>注意海森堡定律<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>量子物理告诉我们，对系统的观察可能导致系统本身的变化。计算机软件不是量子力学（至少现在还不是），但我们仍然需要保持警惕。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>对软件进行插桩实际上会改变这个系统。这可不是简单的观察，它会增加影响系统行为的因素。在诊断分析的过程中，这样做是危险的，因为在进行实验的同时引入无目的性的改变很可能导致你得出错误的结论。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>利用源代码控制工具</span></b><span lang=EN-US style='font-size:
+12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:
+0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>有时你怀疑某处更改有问题，但却想不出为什么会出问题。可关键不在于找到了导致问题的更改，而在于通过调查排除了更多代码的嫌疑。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>奥卡姆的剃刀</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>人们常说</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>“</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>奥卡姆的剃刀</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>”</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>，其意思就是：</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>“</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>其他条件相同的情况下，最简单的解释是最好的。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>”<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>验证假设</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>你所做的一切都是基于假设的。你不可能不做假设，不做假设是疯狂的尝试，因为你不可能每一次都从最基本的原理开始工作。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>但假设是危险的，因为它们会带来盲点，即没有必需的直接证据时就断定这些假设是正确的。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>有些假设的危险性不大。例如，假设你的编译器忠实地将源代码翻译成正确的目标代码应该是安全的，而假设上周一个同事写的一个方法仍然一样有效，则不那么安全。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>旁观调试法</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>往往把问题再解释一遍的简单行为也能激发灵感。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>解释问题会帮助你理清思路。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>Explaining the
+problem helps get your thoughts in order.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>要这么做的理由很充分。向其他人解释问题会强迫你去理清你的思路，列出你的假设，并构建一个从基本原则出发的观点。很多时候，只有设身处地才能找到解决方法。如果找不到，你也不会失去什么啊！<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>福尔摩斯原则</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>当你排除了一切不可能后，无论剩下的是什么，无论它有多么不可思议，它也一定是真相。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>When you have
+eliminated the impossible, whatever remains, however improbable, must be the
+truth.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>测试</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>下面是应该采用的顺序：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>1</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）运行现有的测试程序，并证明它们能通过。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>2</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）添加一个或多个新的测试程序，或修复现有的测试程序，以显示错误（换句话说，就是失败）。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>3</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）修复缺陷。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>4</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）证明你的修复起了作用（那些失败的测试不再失败）。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>（</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>5</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>）证明你没有引入任何回归（以前通过的所有测试现在都没有失败）。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>修复问题产生的原因，而非修复现象</span></b><span lang=EN-US
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>有些时候，选择不解决根本问题对我们来说可能更为合适，但是这只能作为最后没有办法的办法，而且还必须睁大双眼防止后患。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>重构</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>重构是改善既有代码的设计而不改变其行为的过程。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>重构或修改功能</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>——</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>要么选择前者，要么选择后者，绝不能同时进行。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>付诸行动</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>缺陷修复包括以下三个目标：<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l2 level1 lfo4;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>修复问题。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l2 level1 lfo4;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>避免引入回归。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='margin-left:27.0pt;text-align:left;
+text-indent:-18.0pt;mso-pagination:widow-orphan;mso-list:l2 level1 lfo4;
+tab-stops:list 36.0pt;vertical-align:middle'><![if !supportLists]><span
+lang=EN-US style='font-size:10.0pt;mso-bidi-font-size:12.0pt;font-family:Wingdings;
+mso-fareast-font-family:Wingdings;mso-bidi-font-family:Wingdings;color:black;
+mso-font-kerning:0pt'><span style='mso-list:Ignore'>§<span style='font:7.0pt "Times New Roman"'>&nbsp;
+</span></span></span><![endif]><span style='font-size:12.0pt;font-family:宋体;
+mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>维持或提高代码的整体质量（可读性、架构、测试覆盖率等）。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>简化流程</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>作为一个经验法则，对于每一个向你报告问题的用户，将对应有</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>10</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>至</span><span lang=EN-US style='font-size:12.0pt;
+font-family:"Helvetica Neue";mso-fareast-font-family:宋体;mso-bidi-font-family:
+宋体;color:black;mso-font-kerning:0pt'>100</span><span style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>个用户经历过同样的问题，却没想到联系你。</span><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>调试的思维模式</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>缺陷是无意识行为，在此情况下软件不按照既定设计运行。除此之外都是特性，软件就是按照设计来运行的。<span
+lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>最有成效的思维模式是务实的零容忍策略</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>——</span><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>非常接近于零容忍，但是用务实的心态去实现。</span><span lang=EN-US
+style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>既要完美又要实用。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>Temper
+perfectionism with Pragmatism.<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>构建机器</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>永远不要在开发人员的机器上构建发布版的软件。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>防错性程序设计</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>软件在产品阶段应该是鲁棒的，而在调试阶段应该是脆弱的。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+lang=EN-US style='font-size:12.0pt;font-family:"Helvetica Neue";mso-fareast-font-family:
+宋体;mso-bidi-font-family:宋体;color:black;mso-font-kerning:0pt'>&nbsp;<o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><b><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;
+mso-font-kerning:0pt'>魔法</span></b><span lang=EN-US style='font-size:12.0pt;
+font-family:宋体;mso-bidi-font-family:宋体;color:#48B4C1;mso-font-kerning:0pt'><o:p></o:p></span></p>
+
+<p class=MsoNormal align=left style='text-align:left;mso-pagination:widow-orphan'><span
+style='font-size:12.0pt;font-family:宋体;mso-bidi-font-family:宋体;color:black;
+mso-font-kerning:0pt'>把你所有不明白的东西都当作缺陷。<span lang=EN-US><o:p></o:p></span></span></p>
+
+<p class=MsoNormal><span lang=EN-US style='font-size:12.0pt'><o:p>&nbsp;</o:p></span></p>
+
+</div>
+
+</body>
+
+</html>
