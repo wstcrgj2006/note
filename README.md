@@ -4,6 +4,9 @@
 
 🛠[这里](./note/工具.md)是我创建的一些小工具。
 
+- [HTTP实验环境搭建](./note/HTTP实验环境搭建.md)
+- [Java陷阱和缺陷](./note/Java陷阱和缺陷.md)
+- [AndroidStudio有用好玩的小技巧](./note/AndroidStudio有用好玩的小技巧.md)
 - [《软件调试修炼之道》读书笔记](http://htmlpreview.github.io/?https://github.com/deepen099/note/blob/master/note/软件调试修炼之道.html)
 - [Android源码之Activity启动后何时能获得View的宽高](./note/Android源码之Activity启动后何时能获得View的宽高.md)
 - [Base64](./note/Base64.md)
